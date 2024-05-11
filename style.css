@@ -41,7 +41,7 @@ body{
     padding-right: 56px;
 }
 .section{
-    margin-top: 76px;
+    margin-top: 187px;
     margin-left: 360px;
 }
 .yel{
@@ -53,6 +53,34 @@ body{
     color: #EBBD1B;
     font-weight: 700;
 }
+.yel_h1{
+    color: #EBBD1B;
+    font-size: 36px;
+    font-weight: 700;
+}
+.h1_new{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Montserrat";
+    margin-right: 186px;
+}
+.new{
+    margin-top: 363px;
+    margin-left: 360px;
+    display: flex;
+    gap: 11px;
+}
+.p_new{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.line {
+    border-bottom: 2px solid rgb(255, 255, 255); /* Параметры линии */
+   }
+
 .p_header{
     color: #FFFFFF;
     font-size: 20px;
