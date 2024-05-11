@@ -6,8 +6,72 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: #0F0F0F;
+}
+
+/*-------header----------*/
+.text_logo{
+    color: #FFFFFF;
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 498px;
+    
+}
+.logo{
+    margin-top: 76px;
+    margin-left: 360px;
+    display: flex;
+    text-align: center;
+    gap: 11px;
+    align-items: center;
+}
+.text_menu{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 56px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding-right: 56px;
+}
+.section{
+    margin-top: 76px;
+    margin-left: 360px;
+}
+.yel{
+    color: #EBBD1B;
+    font-size: 72px;
+    font-weight: 700;
+}
+.yel_p{
+    color: #EBBD1B;
+    font-weight: 700;
+}
+.p_header{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "OpenSans";
+    margin-top: 53px;
+}
+.text_h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    
+}
+.text_date{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "OpenSans";
+    margin-top: 92px;
 }
 
 /*-----section footer*/
@@ -34,4 +98,21 @@ body{
 .container{
     display: flex;
 
+}
+
+
+
+
+
+
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("../Intec/font/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("../Intec/font/OpenSans-VariableFont_wdth\,wght.ttf");
+    font-style: normal;
 }
