@@ -71,16 +71,28 @@ body{
     display: flex;
     gap: 11px;
 }
+.mer{
+    margin-top: 206px;
+    margin-left: 360px;
+    display: flex;
+    gap: 11px;
+}
 .p_new{
     color: #FFFFFF;
     font-size: 20px;
     font-family: "Montserrat";
 }
-
-.line {
-    border-bottom: 2px solid rgb(255, 255, 255); /* Параметры линии */
-   }
-
+.yel_online{
+    color: #EBBD1B;
+    font-size: 19px;
+    font-weight: 700;
+}
+.p_mer{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: normal;
+    font-family: "Montserrat";
+}
 .p_header{
     color: #FFFFFF;
     font-size: 20px;
