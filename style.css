@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after{
@@ -6,6 +7,14 @@
     box-sizing: border-box;
 }
 
+.section{
+    width: 100%;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: solid; */
+}
 
 body{
     background-color: #0F0F0F;
@@ -17,33 +26,31 @@ body{
     font-size: 41px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 498px;
-    
+    gap: 10px;
+    display: flex;
 }
-.logo{
+.logo_logo{
     margin-top: 76px;
-    margin-left: 360px;
     display: flex;
     text-align: center;
-    gap: 11px;
     align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 11px;
 }
 .text_menu{
     color: #FFFFFF;
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-right: 56px;
 }
 .menu{
     display: flex;
     flex-direction: row;
-    padding-right: 56px;
+    gap: 56px;
 }
-.section{
-    margin-top: 187px;
-    margin-left: 360px;
-}
+
 .yel{
     color: #EBBD1B;
     font-size: 72px;
@@ -117,15 +124,22 @@ body{
 }
 
 .text_footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    font-family: "Montserrat";
     color: #FFFFFF;
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.container{
-    display: flex;
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 288px;
 }
 
 
