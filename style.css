@@ -30,14 +30,16 @@ body{
     display: flex;
 }
 .logo_logo{
-    margin-top: 76px;
     display: flex;
     text-align: center;
     align-items: center;
+    gap: 11px;
 }
 .logo{
+    margin-top: 76px;
     display: flex;
     gap: 11px;
+    justify-content: space-between;
 }
 .text_menu{
     color: #FFFFFF;
@@ -49,8 +51,13 @@ body{
     display: flex;
     flex-direction: row;
     gap: 56px;
+    align-items: center;
 }
 
+.invite{
+    margin-top: 187px;
+}
+/*------------ Section New --------------*/
 .yel{
     color: #EBBD1B;
     font-size: 72px;
@@ -64,23 +71,22 @@ body{
     color: #EBBD1B;
     font-size: 36px;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
 }
 .h1_new{
     color: #FFFFFF;
     font-size: 36px;
     font-weight: normal;
     font-family: "Montserrat";
-    margin-right: 186px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
 }
 .new{
     margin-top: 363px;
-    margin-left: 360px;
-    display: flex;
-    gap: 11px;
-}
-.mer{
-    margin-top: 206px;
-    margin-left: 360px;
+    flex-direction: column;
     display: flex;
     gap: 11px;
 }
@@ -99,6 +105,8 @@ body{
     font-size: 19px;
     font-weight: normal;
     font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
 }
 .p_header{
     color: #FFFFFF;
@@ -121,6 +129,39 @@ body{
     margin-top: 92px;
 }
 
+.pain_new{
+    display: flex;
+    gap: 186px;
+    margin-bottom: 200px;
+}
+
+.left_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.span_yel_h1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.button_new{
+    color: #EBBD1B;
+    border: 1px solid rgb(235, 189, 27);
+    border-radius: 6px;
+    background: #0F0F0F;
+    padding: 16px 48px;
+}
+.button_new:hover{
+    background-color: #1d1d1d;
+}
+
+.btn_new{
+    display: flex;
+    margin-top: 48px;
+}
 /*-----section footer*/
 .logo_insider{
     display: flex;
