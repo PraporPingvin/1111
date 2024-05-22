@@ -192,9 +192,14 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 288px;
+    gap: 228px;
 }
 
+.text_footer_1, .text_footer_2, .text_footer_3{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
 
 
 
