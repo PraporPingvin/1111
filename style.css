@@ -201,6 +201,71 @@ body{
     gap: 26px;
 }
 
+/* -------section question_answer */
+
+.question_answer{
+    color: #FFFFFF;
+}
+
+.text_quest{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(235, 189, 27);
+}
+
+.strip_1{
+    width: 103px;
+    color: #FFFFFF;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 26px;
+    margin-bottom: 106px;
+
+}
+
+.text_number{
+    color: rgba(235, 189, 27, 0.38);
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text_questions{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 11px;
+}
+
+.text_answer{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.block_question_answer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 270px;
+    gap: 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
