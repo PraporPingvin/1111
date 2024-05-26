@@ -255,19 +255,86 @@ body{
     gap: 68px;
 }
 
+/* section form_logout */
 
+.rectangle{
+    width: 1213px;
+    height: 925px;
+    border-radius: 7px;
+    background: rgb(29, 29, 29);
+    margin-bottom: 154px;
+}
 
+/* section partners */
 
+.text_organizer{
+    color: rgb(235, 189, 27);
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 237px;
+    margin-bottom: 25px;
+}
 
+.vector_organizer{
+    display: flex;
+    gap: 313px;
+}
+.vector_horizont{
+    border: 2px solid rgb(255, 255, 255);
+    width: 44px;
+    height: 0;
+    margin-bottom: 88px;
+}
 
+.img_organize{
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 134px;
+    align-items: center;
+}
 
+/* section banner */
 
+.rectangle_yellow{
+    border-radius: 5px;
+    height: 258px;
+    background: rgb(235, 189, 27);
+    margin-bottom: 134px;
+    display: flex;
+    align-items: center;
+}
 
+.text_sponsor{
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+}
 
+.text_intec_banner{
+    color: #0F0F0F;
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat";
+}
 
-
-
-
+.banner_text{
+    display: flex;
+    justify-content: space-around;
+    gap: 413px;
+    margin: 77px;
+}
 
 
 
