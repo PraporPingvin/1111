@@ -162,6 +162,65 @@ body{
     display: flex;
     margin-top: 48px;
 }
+/*------------ Section idea --------------*/
+
+.h1_yel{
+    color: #EBBD1B;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Montserrat";
+
+}
+.h1_idea{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.vector_organizer1{
+    display: flex;
+    gap: 313px;
+    margin-top: 54px;
+}
+.vector_horizont1{
+    border: 1px solid rgb(255, 255, 255);
+    width: 103px;
+    height: 0;
+    margin-bottom: 88px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.h2_golyb{
+    text-transform: uppercase;
+    color: #EBBD1B;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-top: 37px;
+}
+.vector_organizer2{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.vector_horizont2{
+    border: 1px solid rgb(255, 255, 255);
+    width: 258px;
+    height: 0;
+}
+.idea_golyb{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
 /*-----section footer*/
 
 
