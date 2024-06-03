@@ -163,6 +163,8 @@ body{
     margin-top: 48px;
 }
 /*-----section footer*/
+
+
 .logo_insider{
     display: flex;
     text-align: center;
@@ -179,7 +181,7 @@ body{
 .text_footer{
     display: flex;
     flex-wrap: wrap;
-    gap: 90px;
+    gap: 66px;
     font-family: "Montserrat";
     color: #FFFFFF;
     font-size: 21px;
@@ -193,6 +195,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 228px;
+    margin-bottom: 87px;
 }
 
 .text_footer_1, .text_footer_2, .text_footer_3{
@@ -265,6 +268,15 @@ body{
     margin-bottom: 154px;
 }
 
+.molnia{
+    position: absolute;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: -300px;
+}
+
 /* section partners */
 
 .text_organizer{
@@ -335,6 +347,100 @@ body{
     gap: 413px;
     margin: 77px;
 }
+
+/* ---section information_creation-- */
+
+.text_paid{
+    color: #EBBD1B;
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+.texs_paid_new{
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+
+}
+
+.text_1{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.text_white_bold{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 37px;
+    font-weight: bold;
+}
+
+.information_creation{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 270px;
+}
+
+.text_white{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 37px;
+    position: relative;
+}
+
+.text_white::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    left: -81px;
+    top: 9px;
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(235, 189, 27, 0.64),rgba(15, 15, 15, 0.8) 100%);
+}
+.information{
+    display: flex;
+    gap: 34px;
+    flex-direction: column;
+    margin-left: 69px;
+}
+
+.stick{
+    border: 2px dashed rgba(77, 77, 77, 0.4);
+    left: 69px;
+}
+
+.creation{
+    margin-right: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
