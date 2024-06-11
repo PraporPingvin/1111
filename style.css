@@ -157,6 +157,13 @@ body{
 .button_new:hover{
     background-color: #1d1d1d;
 }
+.rectangle1{
+    width: 815px;
+    height: 773px;
+    border-radius: 7px;
+    background: rgb(29, 29, 29);
+    margin-bottom: 154px;
+}
 
 .btn_new{
     display: flex;
@@ -219,6 +226,57 @@ body{
     font-weight: 400;
     font-family: "Montserrat";
 }
+.img_intec{
+    width: 105px;
+    height: 25px;
+    margin-top: 26px;
+}
+
+.why{
+    padding-top: 402px;
+}
+.block{
+    
+        display: grid;
+        /* Три колонки */
+        grid-template-columns: auto auto auto;
+        /* Два ряда */
+        grid-template-rows: auto auto;
+        /* Автоматическое размещение в ряд */
+        grid-auto-flow: row;
+        /* Отступы между ячейками */
+        gap: 60px;
+        
+}
+.item1 {
+    grid-row: span 2;
+}
+.p_why{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Montserrat";
+     
+}
+.button_why{
+    width: 289px;
+    height: 63px;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid rgb(235, 189, 27);
+    border-radius: 6px;
+    background: #EBBD1B;
+    margin-top: 86px ;
+}
+.img_intec1{
+    width: 147px;
+    height:  35px;
+    margin-bottom: 53px;
+}
+.p_tol{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 
 
 /*-----section footer*/
